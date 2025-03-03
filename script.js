@@ -4,8 +4,6 @@
 // function Employee(name, age, jobTitle) {}
 
 // // Do not change code below this line
-// window.Person = Person;
-// window.Employee = Employee;
 
 
 class Person {
@@ -38,5 +36,9 @@ person.greet();
 
 const employee = new Employee("Bob", 30, "Manager");
 employee.jobGreet();
+
+window.Person = Person;
+window.Employee = Employee;
+
 
 
