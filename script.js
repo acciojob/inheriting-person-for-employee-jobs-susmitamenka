@@ -32,12 +32,12 @@ class Employee extends Person {
 }
 
 // Example Usage
-// const person = new Person("Alice", 25);
-// person.greet();
-// // Output: Hello, my name is Alice, I am 25 years old.
+const person = new Person("Alice", 25);
+person.greet();
+// Output: Hello, my name is Alice, I am 25 years old.
 
-// const employee = new Employee("Bob", 30, "Manager");
-// employee.jobGreet();
-// // Output: Hello, my name is Bob, I am 30 years old, and my job title is Manager.
+const employee = new Employee("Bob", 30, "Manager");
+employee.jobGreet();
+// Output: Hello, my name is Bob, I am 30 years old, and my job title is Manager.
 
 
